@@ -1,0 +1,5 @@
+.banner {
+  background: #00b050;
+  background: -webkit-linear-gradient(to right, #00b050, #017ebe);
+  background: linear-gradient(to right, #00b050, #017ebe);
+}

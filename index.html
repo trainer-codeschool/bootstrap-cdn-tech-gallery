@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bootstrap to React component — CodeSchool.VN</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    >
+    <link href="./style.css" rel="stylesheet" type="text/css" >
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="px-lg-5">
+        <!-- For demo purpose -->
+        <div class="row py-5">
+          <div class="col-lg-12 mx-auto">
+            <div class="jumbotron banner text-white shadow-sm">
+              <h1 class="display-4">Bootstrap từ CDN</h1>
+              <p class="lead">Một ví dụ về grid và component của Bootstrap 4.</p>
+              <p class="lead">
+								Khóa học Front-end căn bản của
+								<a href="https://www.facebook.com/codeschool.vn/" class="text-reset">
+									CodeSchool.VN
+								</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <div class="row">
+          <!-- Gallery item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <img src="https://i.ibb.co/YjDsQPx/react-thumb.jpg" alt="React library" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-dark">Thư viện React</a>
+                </h5>
+                <p class="card-text small text-muted">
+                  Một thư viện của Facebook, giúp phát triển ứng dụng web
+                  single-page (SPA) theo phong cách functional.
+                </p>
+                <div class="progress">
+                  <div class="progress-bar bg-info" role="progressbar"
+                    style="width: 59%;" aria-valuenow="59">
+                    59%
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <p class="small mb-0">
+                  <span class="font-weight-bold">FRONT-END</span>
+                </p>
+                <div class="badge badge-info px-3 rounded-pill font-weight-normal">
+                  Blue
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Gallery item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://i.ibb.co/CQbH9Pq/angular-thumb.jpg"
+                alt="Angular framework"
+                class="img-fluid card-img-top"
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-dark">Framework Angular</a>
+                </h5>
+                <p class="card-text small text-muted">
+                  Một framework của Google, giúp phát triển SPA theo phong cách
+                  OOP.
+                </p>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 34%;"
+                    aria-valuenow="34"
+                  >
+                    34%
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <p class="small mb-0">
+                  <span class="font-weight-bold">FRONT-END</span>
+                </p>
+                <div class="badge badge-danger px-3 rounded-pill font-weight-normal">
+                  Red
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Gallery item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://i.ibb.co/mXKxyh9/js-vanilla-thumb.jpg"
+                alt="Vanilla JavaScript"
+                class="img-fluid card-img-top"
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-dark">Vanilla JavaScript</a>
+                </h5>
+                <p class="card-text small text-muted">
+                  JavaScript thuần, không framework, là căn bản cần phải học khi
+                  bước vào lập trình web Front-end.
+                </p>
+                <div class="progress">
+                  <div class="progress-bar bg-warning progress-bar-striped"
+                    role="progressbar"
+                    style="width: 91%;"
+                    aria-valuenow="91"
+                  >
+                    91%
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <p class="small mb-0">
+                  <span class="font-weight-bold">NỀN TẢNG</span>
+                </p>
+                <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">
+                  Yellow
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Gallery item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://i.ibb.co/rMmx4Y2/nodejs-thumb.jpg"
+                alt="NodeJS runtime"
+                class="img-fluid card-img-top"
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-dark">Node.JS</a>
+                </h5>
+                <p class="card-text small text-muted">
+                  Một JS runtime dựa trên engine V8 của Chrominum, cho phép chạy
+                  mã JS ở ngoài môi trường trình duyệt.
+                </p>
+                <div class="progress">
+                  <div class="progress-bar bg-success progress-bar-striped"
+                    role="progressbar"
+                    style="width: 56%;"
+                    aria-valuenow="56"
+                  >
+                    56%
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <p class="small mb-0">
+                  <span class="font-weight-bold">BACK-END</span>
+                </p>
+                <div class="badge badge-success px-3 rounded-pill font-weight-normal">
+                  Green
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Gallery item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://i.ibb.co/Srp94x4/postgresql-thumb.jpg"
+                alt="Postgresql database"
+                class="img-fluid card-img-top"
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-dark">Cơ sở dữ liệu Postgresql</a>
+                </h5>
+                <p class="card-text small text-muted">
+                  Một CSDL quan hệ mã nguồn mở với đầy đủ tính năng như:
+                  trigger, stored procedures v.v.
+                </p>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-info"
+                    role="progressbar"
+                    style="width: 45%;"
+                    aria-valuenow="45"
+                  >
+                    45%
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <p class="small mb-0">
+                  <span class="font-weight-bold">DATABASE</span>
+                </p>
+                <div class="badge badge-primary px-3 rounded-pill font-weight-normal">
+                  Blue
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Gallery item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://i.ibb.co/KDnNjSm/mongodb-thumb.jpg"
+                alt="MongoDB database"
+                class="img-fluid card-img-top"
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-dark">Cơ sở dữ liệu MongoDB</a>
+                </h5>
+                <p class="card-text small text-muted">
+                  Một cơ sở dữ liệu NoSQL miễn phí, thao tác với dữ liệu bằng
+                  JavaScript.
+                </p>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 39%;"
+                    aria-valuenow="39"
+                  >
+                    39%
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <p class="small mb-0">
+                  <span class="font-weight-bold">DATABASE</span>
+                </p>
+                <div class="badge badge-success px-3 rounded-pill font-weight-normal">
+                  Green
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Gallery item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://i.ibb.co/WpnzXFs/git-thumb.jpg"
+                alt="Git source control"
+                class="img-fluid card-img-top"
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-dark">Quản lý mã nguồn Git</a>
+                </h5>
+                <p class="card-text small text-muted">
+                  Là một công cụ quản lý mã nguồn (source control) với cơ chế
+                  phi tập trung.
+                </p>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 77%;"
+                    aria-valuenow="77"
+                  >
+                    77%
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <p class="small mb-0">
+                  <span class="font-weight-bold">DEV TOOLS</span>
+                </p>
+                <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">
+                  Yellow
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Gallery item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://i.ibb.co/gM86QXG/docker-thumb.jpg"
+                alt="Docker container"
+                class="img-fluid card-img-top"
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-dark">Docker container</a>
+                </h5>
+                <p class="card-text small text-muted">
+                  Công cụ dóng gói và triển khai hệ thống back-end ở môi trường
+                  ảo hóa container.
+                </p>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    style="width: 84%;"
+                    aria-valuenow="84"
+                  >
+                    84%
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+                <p class="small mb-0">
+                  <span class="font-weight-bold">DEVOPS</span>
+                </p>
+                <div class="badge badge-info px-3 rounded-pill font-weight-normal">
+                  Cyan
+                </div>
+              </div>
+            </div>
+          </div>
+					<!-- End -->
+					
+          <!-- Gallery item -->
+          <div class="col-md-12">
+            <div class="card shadow-sm">
+							<h6 class="card-header text-white bg-dark">Còn nhiều thư viện và công cụ khác nữa.</h6>
+              <div class="card-body">
+                <p class="card-text small text-muted">
+										Công cụ được sinh ra để giúp công việc nhẹ nhàng hơn, nhưng cũng khiến việc học trở
+										nên phức tạp hơn.
+                </p>
+              </div>
+              <div class="card-footer d-flex align-items-center justify-content-between">
+								<p class="small mb-0">
+									<span class="font-weight-bold">CODESCHOOL.VN</span>
+								</p>
+							</div>
+            </div>
+          </div>
+					<!-- End -->
+					
+				</div>
+				
+        <div class="row py-5">
+					<div class="col-md-12 d-flex align-items-center justify-content-between">
+						<button class="btn btn-dark px-5 py-3 text-uppercase">
+								&#8630; <b>Take</b> me <i>back</i>!
+						</button>
+
+						<button class="btn btn-dark px-5 py-3 text-uppercase">
+								<b>Show</b> me <i>more</i>! &#8608;
+						</button>
+					</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
